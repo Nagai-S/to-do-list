@@ -145,15 +145,6 @@ class Table extends React.Component{
       return null;
     });
 
-    //5回目で表示させる。
-    if (this.state.finish) {
-      return(
-        <div className='finish'>
-          Bootcamp突破おめでとう
-        </div>
-      )
-    }
-
     return(
       <div className="table">
         <h1>Todoリスト作成</h1>
